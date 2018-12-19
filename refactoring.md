@@ -10,9 +10,8 @@
 ### 3 Реализация 
 
 ```def log(func):
-    """
-    Логируем функции.
-    """
+  #  Логируем функции.
+    
     
     def wrap_log(*args, **kwargs):
         name = func.__name__
@@ -32,6 +31,7 @@
         return func
     
     return wrap_log```
+
 
 ### 4 Вывод
 
